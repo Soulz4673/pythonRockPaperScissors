@@ -13,7 +13,7 @@ while (game==True):
 
     while player not in choices:
         player = input("rock, paper, or scissors?: ").lower()
-
+    #conditon/outcome for player vs computer
     if player == computer:
         print("computer: ",computer)
         print("player: ",player)
